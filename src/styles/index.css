@@ -1,0 +1,31 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.5rem;
+}
+input,
+button,
+a {
+  display: block;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: 0;
+  color: black;
+  text-decoration: none;
+}
+hr{
+    border: gray solid 1px;
+}
