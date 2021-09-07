@@ -4,8 +4,8 @@ import Sidebar from '../components/Sidebar'
 import '../styles/home.css'
 function Home() {
     return (
-        <div>
-            <h1>home page</h1>
+        <div className='home'>
+            
             <Sidebar />
             <Hero/>
         </div>

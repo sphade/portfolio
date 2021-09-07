@@ -3,8 +3,11 @@ import '../styles/sidebar.css'
 
 function Sidebar() {
     return (
-        <div>
-            
+        <div className='sidebar'>
+            <div className="sidebar__icon"></div>
+            <ul className="sidebar__links">
+            </ul>
+
         </div>
     )
 }
